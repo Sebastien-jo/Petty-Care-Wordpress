@@ -1,5 +1,5 @@
 <?php
 /*
-    Template Name: Panier
+    Template Name: Cart
 */
 ?>

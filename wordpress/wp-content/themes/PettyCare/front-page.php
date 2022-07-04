@@ -3,13 +3,15 @@
     Template Name: Homepage
 */
 ?>
-
+<?php
+    get_header();
+?>
 <section>
     <div>
         <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
     </div>
     <div>
-        <!-- LOGO PETTY CARE -->
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-White.svg" alt="" height="100">
     </div>
     <div>
         <h1>L'application santé pour votre animal de compagnie</h1>
@@ -17,27 +19,8 @@
     <div>
         <!-- BOUTON COMMANDER -->
     </div>
-    <div>
-        <nav>
-            <!-- NAVBAR -->
-            <div>
-                <!-- MENU -->
-                <!-- SVG -->
-                <p><a href="page-menu.php">Menu</a></p>
-            </div>
-            <div>
-                <!-- RECHERCHE -->
-            </div>
-            <div>
-                <!-- COMPTE -->
-            </div>
-            <div>
-                <!-- PANIER -->
-            </div>
-        </nav>
-    </div>
 </section>
-<section>
+<section id="products">
     <div>
         <h2>Nos produits</h2>
     </div>
@@ -50,7 +33,7 @@
         <h4>Lorem ipsum dolor</h4>
     </article>
 </section>
-<section>
+<section id="engagements">
     <div>
         <h2>Nos engagements</h2>
         <article>
@@ -71,7 +54,7 @@
         </article>
     </div>
 </section>
-<section>
+<section id="operation">
     <div>
         <h2>Le fonctionnement</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.</p>
@@ -83,9 +66,10 @@
         <!-- UN BOUTON -->
     </div>
 </section>
-<section>
+<section id="opinion">
     <div>
         <h2>Les avis clients</h2>
+        <!-- Condition, si on clique ça déroule les avis -->
         <p><a href="">Voir tous les avis +</a></p>
     </div>
     <article>
@@ -103,7 +87,7 @@
         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.”</p>
     </article>
 </section>
-<section>
+<section id="newsletter">
     <h2>Lorem newsletter inscription</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <input type="email" id='email' pattern='.+@gmail\.com' size='30' required>
@@ -126,3 +110,6 @@
         <p>Possible en 3x sans frais</p>
     </article>
 </section>
+<?php
+    get_footer();
+?>
