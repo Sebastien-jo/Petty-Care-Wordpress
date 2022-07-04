@@ -3,7 +3,9 @@
     Template Name: Homepage
 */
 ?>
-
+<?php
+    get_header();
+?>
 <section>
     <div>
         <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
@@ -16,25 +18,6 @@
     </div>
     <div>
         <!-- BOUTON COMMANDER -->
-    </div>
-    <div>
-        <nav>
-            <!-- NAVBAR -->
-            <div>
-                <!-- MENU -->
-                <!-- SVG -->
-                <p><a href="page-menu.php">Menu</a></p>
-            </div>
-            <div>
-                <!-- RECHERCHE -->
-            </div>
-            <div>
-                <!-- COMPTE -->
-            </div>
-            <div>
-                <!-- PANIER -->
-            </div>
-        </nav>
     </div>
 </section>
 <section>
@@ -126,3 +109,6 @@
         <p>Possible en 3x sans frais</p>
     </article>
 </section>
+<?php
+    get_footer();
+?>

@@ -8,3 +8,28 @@
     <title>Petty Care</title>
 </head>
 <body>
+    <div>
+        <nav>
+            <!-- NAVBAR -->
+            <div>
+                <!-- MENU -->
+                <!-- SVG -->
+                <p><a href="<?php the_permalink() ?>">Menu</a></p>
+            </div>
+            <div>
+                <!-- RECHERCHE -->
+                <!-- SVG -->
+                <p><a href="<?php the_permalink() ?>">Recherche</a></p>
+            </div>
+            <div>
+                <!-- COMPTE -->
+                <!-- SVG -->
+                <p><a href="<?php the_permalink() ?>">Compte</a></p>
+            </div>
+            <div>
+                <!-- PANIER -->
+                <!-- SVG -->
+                <p><a href="<?php the_permalink() ?>">Panier</a></p>
+            </div>
+        </nav>
+    </div>
