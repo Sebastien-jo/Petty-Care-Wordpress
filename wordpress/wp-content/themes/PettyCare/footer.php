@@ -2,6 +2,7 @@
 <footer>
     <div>
         <!-- LOGO PETTY CARE -->
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Deep-Jungle-Green.svg" alt="" height="100">
     </div>
     <p><a href="<?php the_permalink(14) ?>">Nos produits</a></p>
     <p><a href="#engagements">Nos engagements</a></p>

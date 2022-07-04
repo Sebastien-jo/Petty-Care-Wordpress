@@ -11,7 +11,7 @@
         <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
     </div>
     <div>
-        <!-- LOGO PETTY CARE -->
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-White.svg" alt="" height="100">
     </div>
     <div>
         <h1>L'application santé pour votre animal de compagnie</h1>
