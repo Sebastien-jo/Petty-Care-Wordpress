@@ -20,7 +20,7 @@
         <!-- BOUTON COMMANDER -->
     </div>
 </section>
-<section>
+<section id="products">
     <div>
         <h2>Nos produits</h2>
     </div>
@@ -33,7 +33,7 @@
         <h4>Lorem ipsum dolor</h4>
     </article>
 </section>
-<section>
+<section id="engagements">
     <div>
         <h2>Nos engagements</h2>
         <article>
@@ -54,7 +54,7 @@
         </article>
     </div>
 </section>
-<section>
+<section id="operation">
     <div>
         <h2>Le fonctionnement</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.</p>
@@ -66,9 +66,10 @@
         <!-- UN BOUTON -->
     </div>
 </section>
-<section>
+<section id="opinion">
     <div>
         <h2>Les avis clients</h2>
+        <!-- Condition, si on clique ça déroule les avis -->
         <p><a href="">Voir tous les avis +</a></p>
     </div>
     <article>
@@ -86,7 +87,7 @@
         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.”</p>
     </article>
 </section>
-<section>
+<section id="newsletter">
     <h2>Lorem newsletter inscription</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <input type="email" id='email' pattern='.+@gmail\.com' size='30' required>
