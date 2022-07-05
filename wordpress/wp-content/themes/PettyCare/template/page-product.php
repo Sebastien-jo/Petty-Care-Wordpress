@@ -3,6 +3,9 @@
     Template Name: Product
 */
 ?>
+<?php
+    get_header();
+?>
 
 <div>
     <!-- Image background chat -->
@@ -168,3 +171,6 @@
     <!-- Bouton QUANTITE -->
     <!-- Bouton ALLER AU PANIER -->
 </section>
+<?php
+    get_footer();
+?>
