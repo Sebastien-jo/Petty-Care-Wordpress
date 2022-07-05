@@ -9,6 +9,9 @@
 </head>
 <body>
     <div>
+        <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
+    </div>
+    <div>
         <nav>
             <!-- NAVBAR -->
             <div>

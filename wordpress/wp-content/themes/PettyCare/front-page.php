@@ -8,9 +8,6 @@
 ?>
 <section>
     <div>
-        <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
-    </div>
-    <div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-White.svg" alt="" height="100">
     </div>
     <div>
