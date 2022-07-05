@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 code#copytext {
 white-space:pre;
 font-family:Verdana
@@ -26,4 +27,34 @@ left:500px
 
 .comment {
 color:orange
+=======
+code#copytext {
+white-space:pre;
+font-family:Verdana
+}
+
+.at {
+color:#00008b
+}
+
+.format {
+color:gray
+}
+
+.property {
+color:green
+}
+
+.selector {
+color:blue
+}
+
+.value {
+color:red;
+left:500px
+}
+
+.comment {
+color:orange
+>>>>>>> a401818172518748c75854fbc964e42a58d9bfa0
 }
