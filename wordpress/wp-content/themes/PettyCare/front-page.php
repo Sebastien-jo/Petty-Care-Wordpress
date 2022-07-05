@@ -27,14 +27,16 @@
         <div>
             <h2>Nos produits</h2>
         </div>
-        <article>
-            <!-- COLLIER -->
-            <h4>Lorem ipsum dolor</h4>
-        </article>
-        <article>
-            <!-- JOUET -->
-            <h4>Lorem ipsum dolor</h4>
-        </article>
+        <div class="row">
+            <article class="col-md-6">
+                <!-- COLLIER -->
+                <h4>Lorem ipsum dolor</h4>
+            </article>
+            <article class="col-md-6">
+                <!-- JOUET -->
+                <h4>Lorem ipsum dolor</h4>
+            </article>
+        </div>
     </div>
 </section>
 <section class="engagements">
