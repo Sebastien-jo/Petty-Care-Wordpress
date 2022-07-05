@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c0e94c5-a83a-4e82-ac06-0c38c99362d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/page-legal-notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/page-legal-notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/template/page-dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/template/page-dashboard.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BTKO4TNNG7r7G2U5mwkdg0nDs3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,5 +58,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
