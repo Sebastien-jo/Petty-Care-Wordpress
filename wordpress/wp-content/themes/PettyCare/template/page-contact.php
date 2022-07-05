@@ -13,7 +13,7 @@
         <input type="text" id="name" name="user_name">
     </div>
     <div>
-        <label for="LastName">Nom :</label>
+        <label for="lastname">Nom :</label>
         <input type="text" id="lastname" name="user_name">
     </div>
     <div>
