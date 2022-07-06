@@ -1,0 +1,14 @@
+// COLORS
+$viridiangreen: #05A0A0;
+$white: #FFFFFF;
+$deepjunglegreen: #0F4E4E;
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// GLOBAL
+
+body{
+    color: $viridiangreen;
+    font-family: 'Roboto';
+}
