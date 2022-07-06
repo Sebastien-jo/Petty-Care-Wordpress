@@ -6,13 +6,16 @@
     <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
     <p><a href="#engagements">Nos engagements</a></p>
     <!-- Condition si la personne a un compte ou pas -->
-    <p><a href="<?php the_permalink(25) ?>">Mon compte</a></p>
+    <p><a href="<?php the_permalink() ?>">Mon compte</a></p>
     <p><a href="#">Devenir revendeur</a></p>
     <p>Appelez-nous au 0806 700 364</p>
     <p>Du lundi au vendredi de 10h à 18h</p>
     <p>Ou contactez-nous via le formulaire en ligne</p>
     <div>
         <!-- BOUTON NOUS CONTACTER -->
+        <div class="button">
+            <button type="button">Nous contacter</button>
+        </div>
     </div>
     <div>
         <div>

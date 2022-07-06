@@ -71,11 +71,11 @@
             </div>
             <div class="col-md-1">
                 <!-- NOS PRODUITS -->
-                <p><a href="#">Nos produits</a></p>
+                <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
             </div>
             <div class="col-md-1">
                 <!-- NOTRE TECHNOLOGIE -->
-                <p><a href="#">Notre technologie</a></p>
+                <p><a href="<?php the_permalink(20) ?>">Notre technologie</a></p>
             </div>
             <div class="col-md-1">
                 <!-- L'APPLICATION -->
@@ -83,7 +83,7 @@
             </div>
             <div class="col-md-1">
                 <!-- CONTACT -->
-                <p><a href="#">Contact</a></p>
+                <p><a href="<?php the_permalink(12) ?>">Contact</a></p>
             </div>
             <div class="col-md-2">
                 <!-- BARRE DE RECHERCHE -->
@@ -98,7 +98,7 @@
             <div class="col-md-2">
                 <!-- PANIER -->
                 <!-- SVG -->
-                <h5><a href="#">Panier</a></h5>
+                <h5><a href="<?php the_permalink(26) ?>">Panier</a></h5>
             </div>
         </div>
     </div>

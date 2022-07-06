@@ -1,4 +1,9 @@
 <?php
+/*
+    Template Name: Login
+*/
+?>
+<?php
 get_header();
 ?>
 
