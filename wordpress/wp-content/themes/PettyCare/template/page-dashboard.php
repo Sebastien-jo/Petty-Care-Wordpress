@@ -1,4 +1,9 @@
 <?php
+/*
+    Template Name: Dashboard
+*/
+?>
+<?php
 get_header();
 ?>
 

@@ -1,4 +1,9 @@
 <?php
+/*
+    Template Name: Cookies management
+*/
+?>
+<?php
 get_header();
 ?>
 
