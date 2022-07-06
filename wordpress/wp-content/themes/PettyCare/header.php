@@ -47,7 +47,7 @@
             <div>
                 <!-- RECHERCHE -->
                 <!-- SVG -->
-                <p><a href="<?php the_permalink(37) ?>">Recherche</a></p>
+                <p><a href="<?php the_permalink(18) ?>">Recherche</a></p>
             </div>
             <div>
                 <!-- COMPTE -->
@@ -58,7 +58,7 @@
             <div>
                 <!-- PANIER -->
                 <!-- SVG -->
-                <p><a href="<?php the_permalink(19) ?>">Panier</a></p>
+                <p><a href="<?php the_permalink(26) ?>">Panier</a></p>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
     <div class="container desktop">
         <div class=row>
             <div class="col-md-2">
-            <a href="<?php the_permalink(12) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
+            <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
             </div>
             <div class="col-md-1">
                 <!-- NOS PRODUITS -->
