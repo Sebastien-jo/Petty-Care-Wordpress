@@ -1,4 +1,9 @@
 <?php
+/*
+    Template Name: Sign in
+*/
+?>
+<?php
 get_header();
 ?>
 
