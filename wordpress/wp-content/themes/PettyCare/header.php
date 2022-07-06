@@ -11,12 +11,33 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <div>
-        <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
+    <div class="container">
+        <div class="row">
+            <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
+            <!-- SVG CROIX -->
+        </div>
     </div>
-    <div>
-        <nav>
-            <!-- NAVBAR -->
+    <div class="container">
+        <!-- UNIQUEMENT EN DESKTOP -->
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-2">
+                <!-- SVG -->
+                <p>Suivi de commande</p>
+            </div>
+            <div class="col-md-1">
+                <!-- SVG -->
+                <p>Aide</p>
+            </div>
+            <div class="col-md-1">
+                <!-- SVG -->
+                <p>Français</p>
+            </div>
+        </div>
+    </div>
+    <!-- SUR MOBILE -->
+    <div class="container mobile">
+        <div class=row>
             <div>
                 <!-- MENU -->
                 <!-- SVG -->
@@ -39,5 +60,45 @@
                 <!-- SVG -->
                 <p><a href="<?php the_permalink(19) ?>">Panier</a></p>
             </div>
-        </nav>
+        </div>
+    </div>
+
+    <!-- SUR DESKTOP -->
+    <div class="container desktop">
+        <div class=row>
+            <div class="col-md-2">
+            <a href="<?php the_permalink(12) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
+            </div>
+            <div class="col-md-1">
+                <!-- NOS PRODUITS -->
+                <p><a href="#">Nos produits</a></p>
+            </div>
+            <div class="col-md-1">
+                <!-- NOTRE TECHNOLOGIE -->
+                <p><a href="#">Notre technologie</a></p>
+            </div>
+            <div class="col-md-1">
+                <!-- L'APPLICATION -->
+                <p><a href="#">L'application</a></p>
+            </div>
+            <div class="col-md-1">
+                <!-- CONTACT -->
+                <p><a href="#">Contact</a></p>
+            </div>
+            <div class="col-md-2">
+                <!-- BARRE DE RECHERCHE -->
+                <!-- SVG -->
+                <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
+            </div>
+            <div class="col-md-2">
+                <!-- COMPTE -->
+                <!-- SVG -->
+                <h5><a href="#">Compte</a></h5>
+            </div>
+            <div class="col-md-2">
+                <!-- PANIER -->
+                <!-- SVG -->
+                <h5><a href="#">Panier</a></h5>
+            </div>
+        </div>
     </div>
