@@ -2,17 +2,23 @@ version: "3.9"
 services:
   db:
     platform: linux/x86_64
-    image: mysql:5.7
+    image: mariadb
     volumes:
-      - db_data:/var/lib/mysql
-    ports:
-    - "5050:80"
+      - ./datas:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: somewordpress
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
     
   wordpress:
     depends_on:
@@ -28,6 +34,3 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
-volumes:
-  db_data: {}
-  wordpress_data: {}

@@ -7,7 +7,11 @@ definer_user=mariadb.sys
 definer_host=localhost
 suid=0
 with_check_option=0
+<<<<<<< HEAD
 timestamp=2022-07-06 09:40:27
+=======
+timestamp=2022-07-06 09:16:10
+>>>>>>> 243d89f0 (db)
 create-version=2
 source=SELECT COUNT(*) cnt,\n       ROUND(avg_timer_wait/1000000) AS avg_us\n  FROM performance_schema.events_statements_summary_by_digest\n GROUP BY avg_us;
 client_cs_name=utf8mb3
