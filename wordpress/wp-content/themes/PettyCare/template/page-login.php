@@ -6,25 +6,31 @@
 <?php
 get_header();
 ?>
-
-    <form method="post" action="nompagequerenvoieleformulaire.php">
-        <p>
+<div class="container">
+    <form method="post" action="pagelogin.php">
+        <div>
             <label for="identifiant">Votre identifiant</label>
             <input type="email" name="identifiant" id="identifiant" placeholder="Identifiant" required />
-
+        </div>
+        <div>
             <label for="pass">Votre mot de passe</label>
             <input type="password" name="pass" id="pass" placeholder="Mot de passe" required />
-
+        </div>
+        <div>
             <input type="checkbox" name="personaldata" id="personaldata" /> <label for="personaldata">Se souvenir de moi</label>
-            <a href="#">Mot de passe oublié</a>
-
-            <input type="submit" value="Se connecter" />
-        </p>
+            <p><a href="#">Mot de passe oublié</a></p>
+        </div>
+        <div class="button">
+            <button type="button">Se connecter</button>
+        </div>
     </form>
 
     <form method="post" action="pageinscription.php">
-        <input type="submit" value="Créer un compte" />
+        <div class="button">
+            <button type="button">Créer un compte</button>
+        </div>
     </form>
+</div>
 
 <?php
 get_footer();

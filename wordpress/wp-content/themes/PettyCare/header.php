@@ -19,7 +19,6 @@
         </div>
     </div>
     <div class="container">
-        <!-- UNIQUEMENT EN DESKTOP -->
         <div class="row">
             <div class="col-md-8"></div>
             <div class="col-md-2">
@@ -36,35 +35,6 @@
             </div>
         </div>
     </div>
-    <!-- SUR MOBILE -->
-    <div class="container mobile">
-        <div class=row>
-            <div>
-                <!-- MENU -->
-                <!-- SVG -->
-                <!-- MENU EN LISTE SI ON CLIQUE DESSUS CA DEROULE -->
-                <p><a href="#">Menu</a></p>
-            </div>
-            <div>
-                <!-- RECHERCHE -->
-                <!-- SVG -->
-                <p><a href="<?php the_permalink(18) ?>">Recherche</a></p>
-            </div>
-            <div>
-                <!-- COMPTE -->
-                <!-- SVG -->
-                <!-- condition si la personne a un compte ou pas -->
-                <p><a href="<?php the_permalink() ?>">Compte</a></p>
-            </div>
-            <div>
-                <!-- PANIER -->
-                <!-- SVG -->
-                <p><a href="<?php the_permalink(26) ?>">Panier</a></p>
-            </div>
-        </div>
-    </div>
-
-    <!-- SUR DESKTOP -->
     <div class="container desktop">
         <div class=row>
             <div class="col-md-2">
@@ -89,7 +59,6 @@
             <div class="col-md-2">
                 <!-- BARRE DE RECHERCHE -->
                 <!-- SVG -->
-                <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
             </div>
             <div class="col-md-2">
                 <!-- COMPTE -->

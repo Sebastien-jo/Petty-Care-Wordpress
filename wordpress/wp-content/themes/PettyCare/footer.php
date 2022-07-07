@@ -37,6 +37,7 @@
                 </div>
                 <div>
                     <p>Paiement 100% sécurisé</p>
+                    <p>Paiement possible en 3x sans frais</p>
                     <!-- SVG LOGO MOYENS DE PAIEMENT -->
                 </div>
             </div>
