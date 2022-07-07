@@ -23,11 +23,11 @@
             <div class="col-md-8"></div>
             <div class="col-md-2">
                 <!-- SVG -->
-                <p>Suivi de commande</p>
+                <p><a href="#">Suivi de commande</a></p>
             </div>
             <div class="col-md-1">
                 <!-- SVG -->
-                <p>Aide</p>
+                <p><a href="#">Aide</a></p>
             </div>
             <div class="col-md-1">
                 <!-- SVG -->
