@@ -14,23 +14,24 @@
 <body>
     <div class="container">
         <div class="row">
-            <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
-            <!-- SVG CROIX -->
+            <div class="col-md-11">
+                <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
+            </div>
+            <div class="col-md-1">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cross.svg" alt="" height="20">
+            </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8"></div>
             <div class="col-md-2">
-                <!-- SVG -->
                 <p><a href="#">Suivi de commande</a></p>
             </div>
             <div class="col-md-1">
-                <!-- SVG -->
                 <p><a href="#">Aide</a></p>
             </div>
             <div class="col-md-1">
-                <!-- SVG -->
                 <p>Français</p>
             </div>
         </div>
@@ -38,7 +39,7 @@
     <div class="container desktop">
         <div class=row>
             <div class="col-md-2">
-            <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
+                <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
             </div>
             <div class="col-md-1">
                 <!-- NOS PRODUITS -->
@@ -58,16 +59,22 @@
             </div>
             <div class="col-md-2">
                 <!-- BARRE DE RECHERCHE -->
-                <!-- SVG -->
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Search.svg" alt="" height="30">
+                </div>
             </div>
             <div class="col-md-2">
                 <!-- COMPTE -->
-                <!-- SVG -->
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Account.svg" alt="" height="40">
+                </div>
                 <h5><a href="#">Compte</a></h5>
             </div>
             <div class="col-md-2">
                 <!-- PANIER -->
-                <!-- SVG -->
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cart.svg" alt="" height="40">
+                </div>
                 <h5><a href="<?php the_permalink(26) ?>">Panier</a></h5>
             </div>
         </div>
