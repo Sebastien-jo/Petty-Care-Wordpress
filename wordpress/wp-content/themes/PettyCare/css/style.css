@@ -4,4 +4,27 @@ body {
   font-family: "Roboto";
 }
 
+h1 {
+  padding: 10px 12px;
+  font-size: 40px;
+}
+
+button {
+  padding: 16px 20px;
+  font-size: 24px;
+  background-color: #05A0A0;
+  color: #FFFFFF;
+  border-radius: 50px;
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #151515;
+}
+
+a:hover {
+  color: #05A0A0;
+}
+
 /*# sourceMappingURL=style.css.map */

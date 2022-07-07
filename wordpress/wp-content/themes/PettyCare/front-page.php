@@ -120,7 +120,7 @@
                 <input type="email" id='email' pattern='.+@gmail\.com' size='30' required>
                 <!-- BOUTON S'INSCRIRE -->
                 <div class="button">
-                    <button type="button">S'INSCRIRE</button>
+                    <button type="button">S'inscrire</button>
                 </div>
             </div>
         </div>
