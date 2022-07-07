@@ -12,13 +12,16 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <div class="container">
+    <div class="advert">
         <div class="row">
-            <div class="col-md-11">
-                <p><a href="#">Livraison gratuite en France métropolitaine</a></p>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <p><a class='advert' href="#">Livraison gratuite en France métropolitaine</a></p>
             </div>
             <div class="col-md-1">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cross.svg" alt="" height="20">
+                <a href="#">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cross.svg" alt="" height="20">
+                </a>
             </div>
         </div>
     </div>
@@ -41,15 +44,15 @@
             <div class="col-md-2">
                 <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <!-- NOS PRODUITS -->
                 <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <!-- NOTRE TECHNOLOGIE -->
                 <p><a href="<?php the_permalink(20) ?>">Notre technologie</a></p>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <!-- L'APPLICATION -->
                 <p><a href="#">L'application</a></p>
             </div>
@@ -57,20 +60,20 @@
                 <!-- CONTACT -->
                 <p><a href="<?php the_permalink(12) ?>">Contact</a></p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <!-- BARRE DE RECHERCHE -->
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Search.svg" alt="" height="30">
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <!-- COMPTE -->
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Account.svg" alt="" height="40">
                 </div>
                 <h5><a href="#">Compte</a></h5>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <!-- PANIER -->
                 <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cart.svg" alt="" height="40">
