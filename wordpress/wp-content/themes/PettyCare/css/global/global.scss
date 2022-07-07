@@ -13,7 +13,30 @@ $catwaba: #742942;
 
 // GLOBAL
 
-body{
+body {
     color: $oreoblack;
     font-family: 'Roboto';
+};
+
+h1 {
+    padding: 10px 12px;
+    font-size: 40px;
+}
+
+button {
+    padding: 16px 20px;
+    font-size: 24px;
+    background-color: $viridiangreen;
+    color: $white;
+    border-radius: 50px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: $oreoblack;
+}
+
+a:hover {
+    color: $viridiangreen;
 }
