@@ -6,7 +6,7 @@
 <?php
 get_header();
 ?>
-
+<div class="container">
     <article>
         <h1>Gestion des cookies</h1>
         <div>
@@ -15,6 +15,7 @@ get_header();
             <p>Et senectus aenean vel quisque vivamus et aliquet sapien. Pellentesque venenatis, et interdum purus arcu mi integer sit imperdiet. Laoreet integer blandit elit fames. In amet cursus quis pulvinar cursus penatibus. Nulla sem odio et in nascetur cras. Turpis nisi, phasellus sed mauris, lectus sociis nulla ipsum sed. Augue est, tellus metus in eu velit. Iaculis id sit dui, vitae. Aliquet id sagittis consequat pellentesque. Ac nibh eget enim mauris rhoncus suspendisse. Velit sed sit in et. Sagittis, quam dolor, egestas eleifend tincidunt neque. Et purus ac donec aliquet. Dolor venenatis porta euismod dictum elit. Purus sed purus lorem turpis. Quis est libero lectus netus sit. Tortor ut faucibus id pellentesque semper at sollicitudin mattis amet. Sagittis venenatis, turpis curabitur phasellus nunc volutpat varius. Vivamus sed ultricies cursus eleifend sit molestie. Tellus maecenas ac varius risus.</p>
         </div>
     </article>
+</div>
 
 <?php
 get_footer();

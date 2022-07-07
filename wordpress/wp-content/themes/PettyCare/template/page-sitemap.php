@@ -6,7 +6,7 @@
 <?php
 get_header();
 ?>
-
+<div class="container">
     <article>
         <h1>Plan du site</h1>
         <div>
@@ -26,6 +26,7 @@ get_header();
             <p>Lorem ipsum</p>
         </div>
     </article>
+</div>
 
 <?php
 get_footer();

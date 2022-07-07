@@ -7,23 +7,16 @@
     get_header();
 ?>
 
-<section>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100">
-    <!-- COMPOSANT CROIX -->
-    <p>X</p>
-</section>
-<section>
-    <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
-    <p>Annuler</p>
-</section>
-<section>
-    <h3>Suggestions</h3>
-    <p>Lorem ipsum</p>
-    <p>Lorem ipsum</p>
-    <p>Lorem ipsum</p>
-    <p>Lorem ipsum</p>
-    <p>Lorem ipsum</p>
-</section>
+<div class="container">
+    <section class="row">
+        <div class="col-md-2">
+            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
+        </div>
+        <div class="button col-md-2">
+            <button type="button">Annuler</button>
+        </div>
+    </section>
+</div>
 
 <?php
     get_footer();

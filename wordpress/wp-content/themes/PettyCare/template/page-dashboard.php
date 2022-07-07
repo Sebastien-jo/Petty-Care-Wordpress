@@ -6,25 +6,25 @@
 <?php
 get_header();
 ?>
-
-<section>
-    <input type="button" value="Se déconnecter">
-</section>
-
-<section>
-    <div>
-        <a href="#">Historique et détails des commandes</a>
-    </div>
-    <div>
-        <a href="#">Mes adresses</a>
-    </div>
-    <div>
-        <a href="#">Mes informations personnelles</a>
-    </div>
-    <div>
-        <a href="#">Mes moyens de paiement</a>
-    </div>
-</section>
+<div class="container">
+    <section>
+        <input type="button" value="Se déconnecter">
+    </section>
+    <section>
+        <div>
+            <p><a href="#">Historique et détails des commandes</a></p>
+        </div>
+        <div>
+            <p><a href="#">Mes adresses</a></p>
+        </div>
+        <div>
+            <p><a href="#">Mes informations personnelles</a></p>
+        </div>
+        <div>
+            <p><a href="#">Mes moyens de paiement</a></p>
+        </div>
+    </section>
+</div>
 
 <?php
 get_footer();
