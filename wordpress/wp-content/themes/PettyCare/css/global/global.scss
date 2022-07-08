@@ -40,3 +40,110 @@ a {
 a:hover {
     color: $viridiangreen;
 }
+
+form {
+    padding: 10px;
+    text-align: center;
+    color: $deepjunglegreen;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+    @media(max-width: 480px) {
+        font-size: 18px;
+    }
+}
+
+label.inline {
+    display: inline;
+    font-size: 17px;
+    @media(max-width: 480px) {
+        font-size: 15px;
+    }
+}
+
+#mdp {
+    color: $deepjunglegreen;
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    @media(max-width: 480px) {
+        width: 200px;
+    }
+}
+
+button.connexion {
+    padding: 5px 95px;
+    font-size: 17px;
+    @media(max-width: 480px) {
+        padding: 5px 45px;
+    }
+}
+
+button.create {
+    padding: 5px 80px;
+    font-size: 17px;
+    background-color: $white;
+    color: $viridiangreen;
+    border: 1px solid $viridiangreen;
+    margin-top: -10px;
+    @media(max-width: 480px) {
+        padding: 5px 30px;
+    }
+}
+input.valider {
+    background-color: $viridiangreen;
+    padding: 5px 50px;
+    font-size: 17px;
+    color: $white;
+    border-radius: 50px;
+    border: 0px;
+    margin: 10px;
+}
+
+#adress.number {
+    width: 90px;
+    @media(max-width: 480px) {
+        width: 50px;
+    }
+}
+
+#adress.postal {
+    width: 195px;
+    @media(max-width: 480px) {
+        width: 135px;
+    }
+}
+
+input#personaldata {
+    width: 20px;
+}
+
+input.deconnexion {
+    background-color: $viridiangreen;
+    padding: 5px 50px;
+    font-size: 17px;
+    color: $white;
+    border-radius: 50px;
+    border: 0px;
+    margin: 10px;
+}
+
+.dashboard {
+    border: 1px solid $deepjunglegreen;
+    border-radius: 10px;
+    color: $deepjunglegreen;
+    padding: 15px 20px;
+    &:hover {
+        border: 1px solid $viridiangreen;
+    }
+}
+
+

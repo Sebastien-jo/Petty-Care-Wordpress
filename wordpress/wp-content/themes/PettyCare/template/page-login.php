@@ -17,17 +17,17 @@ get_header();
             <input type="password" name="pass" id="pass" placeholder="Mot de passe" required />
         </div>
         <div>
-            <input type="checkbox" name="personaldata" id="personaldata" /> <label for="personaldata">Se souvenir de moi</label>
-            <p><a href="#">Mot de passe oublié</a></p>
+            <input type="checkbox" name="personaldata" id="personaldata" /> <label for="personaldata" class="inline" >Se souvenir de moi</label>
+            <p><a href="#" id="mdp" >Mot de passe oublié</a></p>
         </div>
         <div class="button">
-            <button type="button">Se connecter</button>
+            <button type="button" class="connexion" >Se connecter</button>
         </div>
     </form>
 
     <form method="post" action="pageinscription.php">
         <div class="button">
-            <button type="button">Créer un compte</button>
+            <button type="button" class="create" >Créer un compte</button>
         </div>
     </form>
 </div>
