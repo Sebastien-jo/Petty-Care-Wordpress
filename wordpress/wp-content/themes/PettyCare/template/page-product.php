@@ -26,20 +26,21 @@
                 </div>
                 <div>
                     <!-- Etoiles des avis -->
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Five_Stars.svg" alt="" height="20">
                     <p>4.9/5</p>
                     <p><a href="#">Voir les avis</a></p>
                 </div>
                 <div class="row">
                     <article class="col-md-3">
-                        <!-- image en cercle -->
+                        <div class="engCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                     <article class="col-md-3">
-                        <!-- image en cercle -->
+                        <div class="engCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                     <article class="col-md-3">
-                        <!-- image en cercle -->
+                        <div class="engCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                 </div>

@@ -303,8 +303,12 @@ button.create {
   }
 }
 
-.search {
-  text-align: center;
+.engCircle {
+  background-color: #e2f1ef;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: auto;
 }
 
 input.valider {

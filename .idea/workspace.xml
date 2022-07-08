@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0c0e94c5-a83a-4e82-ac06-0c38c99362d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-research.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-research.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-research.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/css/vendor/page-research.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/template/page-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/PettyCare/template/page-product.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
