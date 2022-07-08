@@ -84,6 +84,7 @@
         <div class="row">
             <div class="col-md-8">
                 <!-- UNE IMAGE -->
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/Image_Cat_Pet.png" alt="" height="500">
             </div>
             <div class="col-md-4">
                 <div>
@@ -95,6 +96,7 @@
                     <h4>Vanessa P.</h4>
                     <div>
                         <!-- LES ETOILES -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Five_Stars.svg" alt="" height="20">
                     </div>
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.”</p>
                 </article>
@@ -102,6 +104,7 @@
                     <h4>Philippe E.</h4>
                     <div>
                         <!-- LES ETOILES -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Five_Stars.svg" alt="" height="20">
                     </div>
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.”</p>
                 </article>
