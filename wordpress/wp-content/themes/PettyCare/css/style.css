@@ -54,11 +54,6 @@ label.inline {
   }
 }
 
-#mdp {
-  color: #0F4E4E;
-  text-decoration: underline;
-}
-
 input {
   border-radius: 10px;
   padding: 5px;
@@ -69,6 +64,42 @@ input {
   input {
     width: 200px;
   }
+}
+
+div.advert {
+  padding: 5px;
+  background-color: #05A0A0;
+  text-align: center;
+  align-items: center;
+}
+
+a.advert {
+  color: #FFFFFF;
+}
+
+input.deconnexion {
+  background-color: #05A0A0;
+  padding: 5px 50px;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 50px;
+  border: 0px;
+  margin: 10px;
+}
+
+.dashboard {
+  border: 1px solid #0F4E4E;
+  border-radius: 10px;
+  color: #0F4E4E;
+  padding: 15px 20px;
+}
+.dashboard:hover {
+  border: 1px solid #05A0A0;
+}
+
+#mdp {
+  color: #0F4E4E;
+  text-decoration: underline;
 }
 
 button.connexion {
@@ -125,36 +156,6 @@ input.valider {
 
 input#personaldata {
   width: 20px;
-}
-
-input.deconnexion {
-  background-color: #05A0A0;
-  padding: 5px 50px;
-  font-size: 17px;
-  color: #FFFFFF;
-  border-radius: 50px;
-  border: 0px;
-  margin: 10px;
-}
-
-.dashboard {
-  border: 1px solid #0F4E4E;
-  border-radius: 10px;
-  color: #0F4E4E;
-  padding: 15px 20px;
-}
-.dashboard:hover {
-  border: 1px solid #05A0A0;
-
-div.advert {
-  padding: 5px;
-  background-color: #05A0A0;
-  text-align: center;
-  align-items: center;
-}
-
-a.advert {
-  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

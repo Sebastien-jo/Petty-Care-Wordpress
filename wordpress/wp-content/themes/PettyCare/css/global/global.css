@@ -54,11 +54,6 @@ label.inline {
   }
 }
 
-#mdp {
-  color: #0F4E4E;
-  text-decoration: underline;
-}
-
 input {
   border-radius: 10px;
   padding: 5px;
@@ -69,82 +64,6 @@ input {
   input {
     width: 200px;
   }
-}
-
-button.connexion {
-  padding: 5px 95px;
-  font-size: 17px;
-}
-@media (max-width: 480px) {
-  button.connexion {
-    padding: 5px 45px;
-  }
-}
-
-button.create {
-  padding: 5px 80px;
-  font-size: 17px;
-  background-color: #FFFFFF;
-  color: #05A0A0;
-  border: 1px solid #05A0A0;
-  margin-top: -10px;
-}
-@media (max-width: 480px) {
-  button.create {
-    padding: 5px 30px;
-  }
-}
-
-input.valider {
-  background-color: #05A0A0;
-  padding: 5px 50px;
-  font-size: 17px;
-  color: #FFFFFF;
-  border-radius: 50px;
-  border: 0px;
-  margin: 10px;
-}
-
-#adress.number {
-  width: 90px;
-}
-@media (max-width: 480px) {
-  #adress.number {
-    width: 50px;
-  }
-}
-
-#adress.postal {
-  width: 195px;
-}
-@media (max-width: 480px) {
-  #adress.postal {
-    width: 135px;
-  }
-}
-
-input#personaldata {
-  width: 20px;
-}
-
-input.deconnexion {
-  background-color: #05A0A0;
-  padding: 5px 50px;
-  font-size: 17px;
-  color: #FFFFFF;
-  border-radius: 50px;
-  border: 0px;
-  margin: 10px;
-}
-
-.dashboard {
-  border: 1px solid #0F4E4E;
-  border-radius: 10px;
-  color: #0F4E4E;
-  padding: 15px 20px;
-}
-.dashboard:hover {
-  border: 1px solid #05A0A0;
 }
 
 /*# sourceMappingURL=global.css.map */
