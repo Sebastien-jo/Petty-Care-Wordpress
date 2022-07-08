@@ -3,23 +3,24 @@
     Template Name: Homepage
 */
 ?>
+<div style="background: url('<?php bloginfo('template_directory'); ?>/assets/Image_Cat_Grey.jpg') no-repeat center; background-size: cover;" alt="">
+<div class="frontpageHeader">
 <?php
     get_header();
 ?>
-<section class="welcome">
-    <div class="container">
-        <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-White.svg" alt="" height="100">
+</div>
+    <section class="welcome">
+        <div class="container">
+            <div class="homeTitle">
+                <h1>L'application santé pour votre animal de compagnie</h1>
+            </div>
+            <!-- BOUTON COMMANDER -->
+            <div class="button headerButton">
+                <button type="button">Commander</button>
+            </div>
         </div>
-        <div>
-            <h1>L'application santé pour votre animal de compagnie</h1>
-        </div>
-        <!-- BOUTON COMMANDER -->
-        <div class="button">
-            <button type="button">Commander</button>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 <section class="products">
     <div class="container">
         <div>
