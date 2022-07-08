@@ -89,6 +89,29 @@ div.headMini {
   background-color: #FFFFFF;
 }
 
+.divFooter {
+  text-align: center;
+  padding: 50px 0;
+}
+
+button.footerButton {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #0F4E4E;
+  color: #fffcf1;
+  border-radius: 50px;
+  border: 0px;
+}
+
+.footerText {
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.footerTop {
+  background-color: #e2f1ef;
+}
+
 .homeTitle {
   padding: 150px 0;
   color: #FFFFFF;
