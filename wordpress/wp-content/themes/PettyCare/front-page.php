@@ -22,41 +22,47 @@
     </section>
 </div>
 <section class="products">
-    <div class="container">
+    <div class="container category">
         <div>
-            <h2>Nos produits</h2>
+            <h2 class="frontpageTitle">Nos produits</h2>
         </div>
-        <div class="row">
-            <article class="col-md-6">
+        <div class="row divArticle">
+            <article class="col-md-6 articleProduct">
                 <!-- COLLIER -->
-                <h4>Lorem ipsum dolor</h4>
+                <img class="imgProduct" src="<?php echo get_template_directory_uri(); ?>/assets/Image_Cat_Necklace.png" alt="">
+                <h4 class="FrontSubtitle">Lorem ipsum dolor</h4>
             </article>
-            <article class="col-md-6">
+            <article class="col-md-6 articleProduct">
                 <!-- JOUET -->
-                <h4>Lorem ipsum dolor</h4>
+                <img class="imgProduct" src="<?php echo get_template_directory_uri(); ?>/assets/Image_Cat_Toy.jpg" alt="">
+                <h4 class="FrontSubtitle">Lorem ipsum dolor</h4>
             </article>
         </div>
     </div>
 </section>
 <section class="engagements">
-    <div class="container">
+    <div class="container category">
         <div>
-            <h2>Nos engagements</h2>
-            <div class="row">
+            <h2 class="frontpageTitle">Nos engagements</h2>
+            <div class="row engArticle">
                 <article class="col-md-3">
                     <!-- ARTICLE 1 -->
+                    <div class="engCircle"></div>
                     <p>Lorem ipsum dolor</p>
                 </article>
                 <article class="col-md-3">
                     <!-- ARTICLE 2 -->
+                    <div class="engCircle"></div>
                     <p>Lorem ipsum dolor</p>
                 </article>
                 <article class="col-md-3">
                     <!-- ARTICLE 3 -->
+                    <div class="engCircle"></div>
                     <p>Lorem ipsum dolor</p>
                 </article>
                 <article class="col-md-3">
                     <!-- ARTICLE 4 -->
+                    <div class="engCircle"></div>
                     <p>Lorem ipsum dolor</p>
                 </article>
             </div>
@@ -64,10 +70,10 @@
     </div>
 </section>
 <section class="operation">
-    <div class="container">
-        <h2>Le fonctionnement</h2>
+    <div class="container category">
         <div class="row">
             <div class="col-md-4">
+                <h2 class="frontpageTitle">Le fonctionnement</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tellus imperdiet ullamcorper cras bibendum donec. Suspendisse risus nullam nunc, viverra sapien nisl ultricies.</p>
                 <!-- UN BOUTON -->
                 <div class="button">
@@ -76,12 +82,13 @@
             </div>
             <div class="col-md-8">
                 <!-- UNE IMAGE -->
+                <img class="imgOperation" src="<?php echo get_template_directory_uri(); ?>/assets/Image_Cat_Sleeping.png" alt="" height="400">
             </div>
         </div>
     </div>
 </section>
 <section class="opinion">
-    <div class="container">
+    <div class="container category">
         <div class="row">
             <div class="col-md-8">
                 <!-- UNE IMAGE -->
@@ -89,9 +96,7 @@
             </div>
             <div class="col-md-4">
                 <div>
-                    <h2>Les avis clients</h2>
-                    <!-- Condition, si on clique ça déroule les avis -->
-                    <p><a href="">Voir tous les avis +</a></p>
+                    <h2 class="frontpageTitle">Les avis clients</h2>
                 </div>
                 <article>
                     <h4>Vanessa P.</h4>
@@ -114,24 +119,24 @@
     </div>
 </section>
 <section class="newsletter">
-    <div class="container">
+    <div class="container category">
         <div class="row">
+            <h2 class="frontpageTitle">Lorem newsletter inscription</h2>
             <div class="col-md-6">
-                <h2>Lorem newsletter inscription</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="col-md-6">
-                <input type="email" id='email' pattern='.+@gmail\.com' size='30' required>
+                <input type="email" id='email' pattern='.+@gmail\.com' size='30' placeholder="votreadressemail@gmail.com" required>
                 <!-- BOUTON S'INSCRIRE -->
-                <div class="button">
-                    <button type="button">S'inscrire</button>
+                <div>
+                    <button class="frontpageButton frontpageNewsletter" type="button">S'inscrire</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section>
-    <div class="container">
+    <div class="container category">
         <div class="row">
             <div class="col-md-4">
                 <article>
