@@ -145,6 +145,16 @@ input.deconnexion {
 }
 .dashboard:hover {
   border: 1px solid #05A0A0;
+
+div.advert {
+  padding: 5px;
+  background-color: #05A0A0;
+  text-align: center;
+  align-items: center;
+}
+
+a.advert {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

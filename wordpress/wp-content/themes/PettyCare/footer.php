@@ -24,15 +24,24 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-md-3">
                         <!-- COMPOSANT FACEBOOK -->
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Facebook.svg" alt="" height="40">
+                        </a>
                     </div>
-                    <div>
+                    <div class="col-md-3">
                         <!-- COMPOSANT INSTAGRAM -->
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Instagram.svg" alt="" height="40">
+                        </a>
                     </div>
-                    <div>
+                    <div class="col-md-3">
                         <!-- COMPOSANT TWITTER -->
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Twitter.svg" alt="" height="40">
+                        </a>
                     </div>
                 </div>
                 <div>
