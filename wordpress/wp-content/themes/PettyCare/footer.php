@@ -19,7 +19,7 @@
                 <div>
                     <!-- BOUTON NOUS CONTACTER -->
                     <div class="button">
-                        <button type="button">Nous contacter</button>
+                        <button onclick="window.location.href ='<?php the_permalink(12) ?>'" type="button">Nous contacter</button>
                     </div>
                 </div>
             </div>
@@ -48,6 +48,11 @@
                     <p>Paiement 100% sécurisé</p>
                     <p>Paiement possible en 3x sans frais</p>
                     <!-- SVG LOGO MOYENS DE PAIEMENT -->
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Visa.svg" alt="" height="40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Paypal.svg" alt="" height="40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_MasterCard.svg" alt="" height="40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_GooglePay.svg" alt="" height="40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_ApplePay.svg" alt="" height="40">
                 </div>
             </div>
         </div>
