@@ -11,3 +11,65 @@
 div.headerButton {
     padding: 50px 100px;
 }
+
+div.category {
+    padding: 60px 0;
+}
+
+img.imgProduct {
+    border-radius: 30%;
+    height: 400px;
+}
+
+div.divArticle {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleProduct {
+    text-align: center;
+}
+
+h4.FrontSubtitle {
+    color: $viridiangreen;
+    padding: 10px 0;
+}
+
+.engArticle {
+    text-align: center;
+}
+
+.engArticle > article > p{
+    padding: 20px 0;
+}
+
+.engCircle {
+    background-color: $azurelatte;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+h2.frontpageTitle {
+    padding: 30px 0;
+}
+
+div.category {
+    text-align: center;
+}
+
+.newsletter {
+    background-color: $viridiangreen;
+    color: $white;
+}
+
+button.frontpageButton {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: $white;
+    color: $viridiangreen;
+    border-radius: 50px;
+    border: 0px;
+}

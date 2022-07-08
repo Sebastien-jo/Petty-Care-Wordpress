@@ -9,7 +9,7 @@
                 <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
                 <p><a href="#engagements">Nos engagements</a></p>
                 <!-- Condition si la personne a un compte ou pas -->
-                <p><a href="<?php the_permalink() ?>">Mon compte</a></p>
+                <p><a href="<?php the_permalink(28) ?>">Mon compte</a></p>
                 <p><a href="#">Devenir revendeur</a></p>
             </div>
             <div class="col-md-3">
