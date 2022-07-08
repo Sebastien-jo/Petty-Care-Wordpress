@@ -17,9 +17,9 @@ get_header();
         </div>
         <div class="adress">
             <label for="adress">Votre adresse</label>
-            <input type="text" name="street" id="adress" placeholder="Voie" required />
-            <input type="text" name="number" id="adress" placeholder="N°" required />
-            <input type="text" name="postal" id="adress" placeholder="Code postal" required />
+            <input type="text" name="street" id="adress" placeholder="Voie" required /><br>
+            <input type="text" name="number" id="adress" class="number" placeholder="N°" required />
+            <input type="text" name="postal" id="adress" class="postal" placeholder="Code postal" required /><br>
             <input type="text" name="city" id="adress" placeholder="Ville" required />
         </div>
         <div class="email">
@@ -34,10 +34,10 @@ get_header();
             <input type="password" name="pass" id="pass" placeholder="Mot de passe" required />
         </div>
         <div>
-            <input type="checkbox" name="personaldata" id="personaldata" required /> <label for="personaldata">En cochant cette case, vous acceptez le traitement de vos données personnelles.</label>
+            <input type="checkbox" name="personaldata" id="personaldata" required /> <label for="personaldata" class="inline">En cochant cette case, vous acceptez le traitement de vos données personnelles.</label>
         </div>
         <div class="button">
-            <input type="submit" value="Valider" />
+            <input type="submit" value="Valider" class="valider" />
         </div>
     </form>
 </div>
