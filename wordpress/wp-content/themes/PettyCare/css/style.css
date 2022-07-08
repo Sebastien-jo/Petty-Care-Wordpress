@@ -77,6 +77,32 @@ a.advert {
   color: #FFFFFF;
 }
 
+div.nav {
+  align-items: center;
+}
+
+div.comp {
+  padding: 15px;
+}
+
+div.headMini {
+  background-color: #FFFFFF;
+}
+
+.homeTitle {
+  padding: 150px 0;
+  color: #FFFFFF;
+}
+
+.frontpageHeader {
+  background-color: #fffcf1;
+  opacity: 0.8;
+}
+
+div.headerButton {
+  padding: 50px 100px;
+}
+
 input.deconnexion {
   background-color: #05A0A0;
   padding: 5px 50px;
