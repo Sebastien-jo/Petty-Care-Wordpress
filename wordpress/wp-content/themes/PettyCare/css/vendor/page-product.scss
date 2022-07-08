@@ -1,0 +1,19 @@
+div.productCircle {
+    background-color: $azurelatte;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.productButton {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 50px;
+    color: $white;
+    background-color: $viridiangreen;
+    margin-top: -10px;
+}
+
+.goToBasket {
+    padding: 50px 0;
+}

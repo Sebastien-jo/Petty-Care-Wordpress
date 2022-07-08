@@ -6,16 +6,17 @@
 <?php
     get_header();
 ?>
-
-<div class="container">
-    <section class="row">
-        <div class="col-md-2">
-            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
-        </div>
-        <div class="button col-md-2">
-            <button type="button">Annuler</button>
-        </div>
-    </section>
+<div class="pageResearch">
+    <div class="container">
+        <section class="row">
+            <div class="col-md-3">
+                <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher">
+            </div>
+            <div class="col-md-2">
+                <button class="researchButton" type="button">Annuler</button>
+            </div>
+        </section>
+    </div>
 </div>
 
 <?php

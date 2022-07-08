@@ -338,6 +338,39 @@ button.create {
   }
 }
 
+div.productCircle {
+  background-color: #e2f1ef;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.productButton {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background-color: #05A0A0;
+  margin-top: -10px;
+}
+
+.goToBasket {
+  padding: 50px 0;
+}
+
+.researchButton {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background-color: #05A0A0;
+}
+
+.pageResearch {
+  background-color: #fffcf1;
+  padding: 100px 0;
+}
+
 input.valider {
   background-color: #05A0A0;
   padding: 5px 50px;
@@ -368,6 +401,10 @@ input.valider {
 
 input#personaldata {
   width: 20px;
+}
+
+.pageTech {
+  background-color: #fffcf1;
 }
 
 /*# sourceMappingURL=style.css.map */

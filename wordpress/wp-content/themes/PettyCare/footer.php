@@ -8,7 +8,7 @@
                 </div>
                 <div class="col-md-3">
                     <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
-                    <p><a class='footerText' href="#engagements">Nos engagements</a></p>
+                    <p><a class='footerText' href="<?php the_permalink(7) ?>">Nos engagements</a></p>
                     <!-- Condition si la personne a un compte ou pas -->
                     <p><a class='footerText' href="<?php the_permalink(28) ?>">Mon compte</a></p>
                     <p><a class='footerText' href="#">Devenir revendeur</a></p>
