@@ -191,22 +191,83 @@ button.frontpageButton {
 
 input.deconnexion {
   background-color: #05A0A0;
-  padding: 5px 50px;
+  padding: 5px 0px;
   font-size: 17px;
   color: #FFFFFF;
   border-radius: 50px;
   border: 0px;
   margin: 10px;
+  width: 440px;
+}
+@media (max-width: 480px) {
+  input.deconnexion {
+    width: 320px;
+  }
 }
 
 .dashboard {
   border: 1px solid #0F4E4E;
   border-radius: 10px;
   color: #0F4E4E;
-  padding: 15px 20px;
 }
 .dashboard:hover {
   border: 1px solid #05A0A0;
+}
+
+.histo {
+  margin-top: 30px;
+}
+
+.histodash {
+  padding: 15px 90px;
+}
+@media (max-width: 480px) {
+  .histodash {
+    padding: 25px 30px;
+  }
+}
+
+.adressdash {
+  margin-top: 50px;
+}
+
+.adressdash2 {
+  padding: 15px 175px;
+}
+@media (max-width: 480px) {
+  .adressdash2 {
+    padding: 25px 112px;
+  }
+}
+
+.infos {
+  margin-top: 50px;
+}
+
+.infodash {
+  padding: 15px 115px;
+}
+@media (max-width: 480px) {
+  .infodash {
+    padding: 25px 52px;
+  }
+}
+
+.paiement {
+  margin: 50px 0px;
+}
+
+.paiementdash {
+  padding: 15px 135px;
+}
+@media (max-width: 480px) {
+  .paiementdash {
+    padding: 25px 70px;
+  }
+}
+
+.center {
+  text-align: center;
 }
 
 #mdp {

@@ -3,7 +3,7 @@
  * 3 |     background-color: $viridiangreen;
  *   |                       ^^^^^^^^^^^^^^
  *   '
- *   C:\Users\sevan\OneDrive\Bureau\ProjetFinalWordpress\Petty-Care-Wordpress\wordpress\wp-content\themes\PettyCare\css\global\header.scss 3:23  root stylesheet */
+ *   PhpstormProjects/PettyCareWordpress/Petty-Care-Wordpress/wordpress/wp-content/themes/PettyCare/css/global/header.scss 3:23  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      background-color: $viridiangreen;\d\a   \2502                        ^^^^^^^^^^^^^^\a   \2575 \a   C:\\Users\\sevan\\OneDrive\\Bureau\\ProjetFinalWordpress\\Petty-Care-Wordpress\\wordpress\\wp-content\\themes\\PettyCare\\css\\global\\header.scss 3:23  root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      background-color: $viridiangreen;\a   \2502                        ^^^^^^^^^^^^^^\a   \2575 \a   PhpstormProjects/PettyCareWordpress/Petty-Care-Wordpress/wordpress/wp-content/themes/PettyCare/css/global/header.scss 3:23  root stylesheet";
 }
