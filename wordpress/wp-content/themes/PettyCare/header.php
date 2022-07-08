@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="headMini">
         <div class="row">
             <div class="col-md-8"></div>
             <div class="col-md-2">
@@ -34,51 +34,55 @@
             <div class="col-md-1">
                 <p><a href="#">Aide</a></p>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 fr">
                 <p>Français</p>
             </div>
         </div>
     </div>
     <div class="container desktop">
         <div class=row>
-            <div class="col-md-2">
-                <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="100"></a>
+            <div class="col-md-2 nav">
+                <a href="<?php the_permalink(7) ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/Logo-Petty-Care-Viridian-Green.svg" alt="" height="80"></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 nav">
                 <!-- NOS PRODUITS -->
                 <p><a href="<?php the_permalink(16) ?>">Nos produits</a></p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 nav">
                 <!-- NOTRE TECHNOLOGIE -->
                 <p><a href="<?php the_permalink(20) ?>">Notre technologie</a></p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 nav">
                 <!-- L'APPLICATION -->
                 <p><a href="#">L'application</a></p>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 nav">
                 <!-- CONTACT -->
                 <p><a href="<?php the_permalink(12) ?>">Contact</a></p>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 nav comp">
                 <!-- BARRE DE RECHERCHE -->
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Search.svg" alt="" height="30">
+                    <a href="<?php the_permalink(18) ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Search.svg" alt="" height="30">
+                    </a>
                 </div>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 nav comp">
                 <!-- COMPTE -->
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Account.svg" alt="" height="40">
+                    <a href="<?php the_permalink(28) ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Account.svg" alt="" height="40">
+                    </a>
                 </div>
-                <h5><a href="#">Compte</a></h5>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 nav comp">
                 <!-- PANIER -->
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cart.svg" alt="" height="40">
+                    <a href="<?php the_permalink(26) ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/Composant_Cart.svg" alt="" height="40">
+                    </a>
                 </div>
-                <h5><a href="<?php the_permalink(26) ?>">Panier</a></h5>
             </div>
         </div>
     </div>
