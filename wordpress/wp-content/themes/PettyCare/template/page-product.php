@@ -11,12 +11,7 @@
     <div class="row">
         <div class="col-md-6">
             <!-- Image background chat -->
-            <div>
-                <!-- Fleche de retour -->
-            </div>
-            <div>
-                <!-- Icone panier -->
-            </div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/Image_Cat_Toy_2.png" alt="" height="400">
         </div>
         <div class="col-md-6">
             <section>
@@ -32,14 +27,17 @@
                 <div class="row">
                     <article class="col-md-3">
                         <!-- image en cercle -->
+                        <div class="productCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                     <article class="col-md-3">
                         <!-- image en cercle -->
+                        <div class="productCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                     <article class="col-md-3">
                         <!-- image en cercle -->
+                        <div class="productCircle"></div>
                         <p>Lorem ipsum</p>
                     </article>
                 </div>
@@ -48,43 +46,27 @@
                     <div class="col-md-2">
                         <h4>Quantité</h4>
                     </div>
-                    <div class="button col-md-1">
-                        <button type="button">-</button>
+                    <div class="col-md-1">
+                        <button class="productButton" type="button">-</button>
                     </div>
                     <div class="col-md-1">
                         <span>1</span>
                     </div>
-                    <div class="button col-md-1">
-                        <button type="button">+</button>
+                    <div class="col-md-1">
+                        <button class="productButton" type="button">+</button>
                     </div>
-                    <div class="button col-md-4">
-                        <button type="button">Ajouter au panier</button>
+                    <div class="col-md-4">
+                        <button class="productButton" type="button">Ajouter au panier</button>
                     </div>
                 </section>
             </section>
         </div>
     </div>
     <section>
-        <!-- Bouton quantité de produit -->
-        <!-- Bouton ajout au panier -->
-    </section>
-    
-    <!-- SI CLIQUER SUR LE + -->
-    
-    <section>
-        <!-- Bouton quantité de produit -->
-        <!-- Bouton ajout au panier -->
-    </section>
-    
-    <!-- SI CLIQUER SUR AJOUT AU PANIER -->
-    <section>
-        <!-- Bouton quantité de produit -->
-        <!-- svg de check -->
-        <!-- <p>Article ajouté au panier !</p> -->
-    </section>
-    <!-- ETAT ENSUITE -->
-    <section>
         <!-- Bouton ALLER AU PANIER -->
+        <div class="col-md-4 goToBasket">
+            <button class="productButton" type="button">Aller au panier</button>
+        </div>
     </section>
 </div>
 <?php

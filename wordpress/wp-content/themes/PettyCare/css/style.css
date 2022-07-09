@@ -193,6 +193,41 @@ button.frontpageButton {
   border: 0px;
 }
 
+.divCart {
+  background-color: #fffcf1;
+}
+
+.cartButton {
+  background-color: #05A0A0;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 50px;
+  padding: 10px 16px;
+}
+
+.cartQuantity {
+  display: flex;
+  align-items: center;
+}
+
+.textCartQuantity {
+  padding: 20px 0px;
+  font-size: 20px;
+  margin: 0;
+}
+
+h4.cartSubtitle {
+  padding: 20px 0;
+}
+
+.cartSelectColor {
+  background-color: #05A0A0;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 50px;
+  padding: 10px 16px;
+}
+
 input.deconnexion {
   background-color: #05A0A0;
   padding: 5px 0px;
@@ -303,6 +338,39 @@ button.create {
   }
 }
 
+div.productCircle {
+  background-color: #e2f1ef;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.productButton {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background-color: #05A0A0;
+  margin-top: -10px;
+}
+
+.goToBasket {
+  padding: 50px 0;
+}
+
+.researchButton {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background-color: #05A0A0;
+}
+
+.pageResearch {
+  background-color: #fffcf1;
+  padding: 100px 0;
+}
+
 input.valider {
   background-color: #05A0A0;
   padding: 5px 50px;
@@ -333,6 +401,10 @@ input.valider {
 
 input#personaldata {
   width: 20px;
+}
+
+.pageTech {
+  background-color: #fffcf1;
 }
 
 /*# sourceMappingURL=style.css.map */
