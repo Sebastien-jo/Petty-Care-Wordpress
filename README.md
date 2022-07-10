@@ -1,7 +1,7 @@
 # Petty-Care-Wordpress
 
 Welcome to this repository dedicated to the project named Petty Care !
-(https://user-images.githubusercontent.com/73281588/173239149-6cb44457-b5f8-4961-b54c-6d89119def65.png)
+![](https://user-images.githubusercontent.com/73281588/173239149-6cb44457-b5f8-4961-b54c-6d89119def65.png)
 
 ## Projet participant
 
