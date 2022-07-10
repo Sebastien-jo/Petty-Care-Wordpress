@@ -129,7 +129,7 @@
                 <input type="email" id='email' pattern='.+@gmail\.com' size='30' placeholder="votreadressemail@gmail.com" required>
                 <!-- BOUTON S'INSCRIRE -->
                 <div>
-                    <button class="frontpageButton frontpageNewsletter" type="button">S'inscrire</button>
+                    <button class="frontpageButton frontpageNewsletter" type="button" onclick="NewsAlert()">S'inscrire</button>
                 </div>
             </div>
         </div>
