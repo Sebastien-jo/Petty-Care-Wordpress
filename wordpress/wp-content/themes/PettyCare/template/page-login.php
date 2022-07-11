@@ -7,7 +7,7 @@
 get_header();
 ?>
 <div class="container">
-    <form method="post" action="pagelogin.php">
+    <form method="post" action="https://localhost:8001/api/register">
         <div>
             <label for="identifiant">Votre identifiant</label>
             <input type="email" name="identifiant" id="identifiant" placeholder="Identifiant" required />
@@ -27,7 +27,7 @@ get_header();
 
     <form method="post" action="pageinscription.php">
         <div class="button">
-            <button type="button" class="create" >Créer un compte</button>
+            <button onclick="window.location.href = '<?php the_permalink(30) ?>'" type="button" class="create" >Créer un compte</button>
         </div>
     </form>
 </div>
