@@ -8,9 +8,8 @@
 ?>
 
 <div class="container">
-    <?php echo do_shortcode( '[formidable id="2"]' ); ?>
     <!-- LE FORMULAIRE AVANT -->
-    <!-- <form action="page-contact.php" method="post">
+    <form action="page-contact.php" method="post">
         <div>
             <label for="name">Prénom :</label>
             <input type="text" id="name" name="user_name">
@@ -30,7 +29,7 @@
         <div class="button">
             <button type="submit">Envoyer le formulaire</button>
         </div>
-    </form> -->
+    </form>
 </div>
 
 <?php
