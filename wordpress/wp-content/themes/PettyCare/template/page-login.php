@@ -7,7 +7,7 @@
 get_header();
 ?>
 <div class="container">
-    <form method="post" action="https://localhost:8001/api/login">
+    <form method="post" action="">
         <div>
             <label for="identifiant">Votre identifiant</label>
             <input type="email" name="identifiant" id="identifiant" placeholder="Identifiant" required />

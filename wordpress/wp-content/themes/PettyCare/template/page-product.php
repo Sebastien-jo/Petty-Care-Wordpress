@@ -65,7 +65,7 @@
     <section>
         <!-- Bouton ALLER AU PANIER -->
         <div class="col-md-4 goToBasket">
-            <button class="productButton" type="button">Aller au panier</button>
+            <button onclick="window.location.href ='<?php the_permalink(26) ?>'" class="productButton" type="button">Aller au panier</button>
         </div>
     </section>
 </div>
