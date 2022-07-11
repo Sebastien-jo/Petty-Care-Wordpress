@@ -7,7 +7,7 @@
 get_header();
 ?>
 <div class="container">
-    <form class="registerForm" method="post" action="page-signin.php">
+    <form class="registerForm" method="post" action="https://localhost:8001/api/register">
         <div class="name">
             <label for="lastname">Votre nom</label>
             <input type="text" name="lastname" id="lastname" placeholder="Nom" required />
